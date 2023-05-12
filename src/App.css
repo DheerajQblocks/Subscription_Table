@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Price_Table{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin: 5rem;
+  
+}
+
+.Section{
+  border: 2px solid red;
+  height: 600px;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* background-image: url("https://media.istockphoto.com/id/1129308079/photo/pink-abstract-background.jpg?s=612x612&w=0&k=20&c=Bg_YRH7sLsoBBMk3rQ-Csz4jEyU0BDFC6HuldFcZHwI="); */
+  
+}
+
+.Section_First{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 2rem;
+  line-height: 2rem;
+  
+}
+
+.Section_tag{
+background-color: wheat;
+border-radius: 1rem;
+}
+
+.Section_Price_Duration{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  width: 100%;
+  /* background-color: red; */
+}
+
+.Section_price{
+ font-size: 2rem;
+  /* background-color: red; */
+
+}
+.Section_subDuration{
+  border-radius: 1rem;
+  /* background-color: pink; */
+
+}
+
+.Section_heading{
+ font-size: 3rem;
+ margin: auto;
+ margin: 2rem 0 2rem 0;
+}
+
+/* Button Style */
+
+.bn632-hover {
+  width: 87%;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 1.5rem 0 1.5rem;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn27 {
+  background-image: linear-gradient(
+    to right,
+    #ed6ea0,
+    #ec8c69,
+    #f7186a,
+    #fbb03b
+  );
+  box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}
+
+
+.Section_includes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  margin: 1rem 2rem 2rem 2rem;
+}
